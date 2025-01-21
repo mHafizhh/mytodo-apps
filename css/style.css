@@ -107,6 +107,11 @@ input[type=text], input[type=date], .btn-submit:focus {
     outline: none;
 }
 
+input:focus {
+    border-color:#5F30E2;
+    box-shadow: 0 4px 10px rgba(95, 48, 226, 0.6);
+}
+
 .text-center {
     text-align: center;
 }
